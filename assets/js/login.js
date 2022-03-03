@@ -64,7 +64,7 @@ $('#form_login').submit(function (e) {
                 }
                 //  console.log(res.token);
                 // 把res.token存入本地 localstrage中，以便后面验证的时候使用
-                localStorage.setItem('taken',res.token)
+                localStorage.setItem('token',res.token)
                 // layer.msg('登录成功')
                 location.href = '/index.html'
             }
