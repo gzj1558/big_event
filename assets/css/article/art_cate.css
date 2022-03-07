@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+.layui-card-header{
+    display: flex;
+    /* 弹性盒子水平对齐方式 */
+    justify-content: space-between;
+    /* 子项目垂直对齐方式 */
+    align-items: center;
+}
+/* 添加列表的弹窗 */
+#form-add{
+    padding: 20px 30px 0 0;
+}
